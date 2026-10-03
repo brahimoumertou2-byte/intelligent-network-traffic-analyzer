@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Intelligent Network Traffic Analyzer
 
 A defensive network monitoring application with a FastAPI backend, live dashboard, and a separate packet capture component. The analyzer captures packet metadata and submits normalized records to the existing traffic API; it does not retain packet payloads.
@@ -101,3 +102,6 @@ Local private hosts observed in traffic are added to the devices table and their
 ## Tests
 
 Install dependencies with `python -m pip install -r requirements.txt`, then run `python -m pytest`. Backend tests use isolated in-memory SQLite; analyzer tests use constructed Scapy packets and mocked HTTP requests, so they do not capture live network traffic.
+=======
+# intelligent-network-traffic-analyzer
+>>>>>>> a402cc9d9ae6fbbebd769bdf18639da8af52bc56
